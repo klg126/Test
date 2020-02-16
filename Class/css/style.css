@@ -1,0 +1,78 @@
+body {
+  background-color:rgb(163, 236, 241)
+}
+
+h1
+{
+  color:red;
+  font-family: 'Bebas Neue';
+}
+
+
+/* this is class */
+.container
+{
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  width: 50%;
+  box-shadow: 5px 10px 10px 10px rgb(206, 214, 200);
+  border-radius: 10%
+}
+
+.container h1 {
+  font-size: 4em;
+}
+
+.article h1 {
+  color: blue;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 60px;
+  padding: 20px;
+  background-color: white;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+.article h1 {
+  color: blue
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+
+.horizontaLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%
+}
+
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontaLine li a:hover {
+  color: red;
+}
+
+#dog {
+  background-color: pink;
+  width: 80%;
+  margin: auto;
+}

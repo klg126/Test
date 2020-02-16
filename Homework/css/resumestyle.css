@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(249, 208, 233)
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 200%;
+}
+
+h1 {
+  color: rgb(251, 72, 185);
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 250%;
+}
+
+body {
+  color: rgb(251, 72, 185);
+  font-family: 'Crimson Text', serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.contactinfo h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+  color: white;
+}
+
+.education h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+  color: white;
+}
+
+.experience h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+  color: white;
+}
+
+.horizontalline {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.horizontalline li {
+  display: inline;
+  margin: 40px;
+  background-color: white;
+  padding: 20px 60px 20px 60px;
+  width: 10%;
+}
+
+.horizontalline li a {
+  color: rgb(251, 72, 185);
+  text-decoration: none;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+.horizontalline li a:hover {
+  color: rgb(138, 255, 255);
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table, th, td {
+  border: 1px solid black;
+}
+
+.table th {
+  font-family: 'Anton', sans-serif;
+}
