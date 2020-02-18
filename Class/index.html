@@ -8,22 +8,26 @@
     <!-- This is the meta data -->
     <meta name="author" content="Katelyn Gavin">
     <meta name="description" content="Basic HTML Example">
-    <meta name="Keywords"content="HTML, JS, CSS, Basic example"
+    <meta name="Keywords"content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
   </head>
   <!-- This is the body of my website -->
   <body>
     <!-- This is my header     -->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="horizontaLine">
           <li> <a href="https://www.apple.com">Apple</a> </li>
           <li> <a href="https://www.instagram.com">Instagram</a> </li>
           <li> <a href="https://www.pinterest.com">Pinterest</a> </li>
         </ul>
       </nav>
     </header>
-    <section>
-      <aside>
+
+      <aside class="sidebar">
+        <h3>SideBar</h3>
         <ul>
           <li>Item 1</li>
           <li>Item 2</li>
@@ -35,33 +39,33 @@
           <li>Item 3</li>
       </aside>
       <!-- we use articles for magazines, articles, posts -->
+      <div class="container">
+        <section>
+          <h1>Title</h1>
+          <article class="article">
+            <h2>Subtitle</h2>
+            <p>
+              <em>Lorem Ipsum Dolor Sit Amet </em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <strong>Ipsum</strong>
+              <em>Lorem Ipsum Dolor Sit Amet</em>
+              <b>Lorem Ipsum Dolor Sit Amet</b>
+              <i>Lorem Ipsum Dolor Sit Amet</i>
+            </p>
 
-      <article>
-        <h1>Title</h1>
-        <h2>Subtitle</h2>
-
-      </article>
-      <p>
-        <!-- This is for best practices -->
-        <em>Lorem Ipsum Dolor Sit Amet </em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <strong>Ipsum</strong>
-        <em>Lorem Ipsum Dolor Sit Amet</em>
-        <b>Lorem Ipsum Dolor Sit Amet</b>
-        <i>Lorem Ipsum Dolor Sit Amet</i>
-
-      <img src="img/Unknown.jpeg" alt="Dog" width="350px">
-<article>
-
+        </section>
+      <img src="img/Unknown.jpeg" alt="Dog" width="400">
 </section>
+</div>
+  </article>
 
 <section>
+  <h1>Contact Information</h1>
   <address>
     <ul>
       <li>Name: Katelyn Gavin</li>
       <li>Phone Number: 781-964-0485</li>
       <li>Email: KLG126@miami.edu</li>
     </ul>
-</article>
       </address>
     </section>
 
@@ -74,6 +78,10 @@
   <tr>
     <td>1</td>
     <td>7</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>14</td>
   </tr>
 </table>
 
