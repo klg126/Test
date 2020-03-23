@@ -1,0 +1,81 @@
+body {
+    background-color:rgb(249, 208, 233);
+}
+
+h2 {
+  color:rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+h1 {
+  color:black;
+  text-align: center;
+  font-family: 'Archivo Black';
+}
+
+p {
+  color:rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Cardo';
+}
+
+.profilephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.horizontalLine {
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.horizontalLine li {
+  display: block;
+  margin: 15px;
+  padding: 15px 35px 15px 35px;
+  background-color: white;
+  width: 45%;
+}
+
+.horizontalLine li a {
+  color: rgb(252, 42, 219);
+  text-decoration: none;
+  font-family: 'Archivo Black';
+  text-align: center;
+}
+
+.horizontalLine li a:hover {
+  color: rgb(249, 208, 233);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  color: rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Cardo';
+}
+
+.footer {
+  color: rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Cardo';
+}

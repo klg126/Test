@@ -1,0 +1,78 @@
+body {
+    background-color:rgb(249, 208, 233);
+}
+
+h2 {
+  color:rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+h1 {
+  color:black;
+  text-align: center;
+  font-family: 'Archivo Black';
+}
+
+p {
+  color:rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Cardo';
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.profilephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.horizontalLine {
+  padding-top: 20px;
+}
+
+.horizontalLine li {
+  display: inline-block;
+  margin: 50px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.horizontalLine li a {
+  color: rgb(252, 42, 219);
+  text-decoration: none;
+  font-family: 'Archivo Black';
+  text-align: center;
+  font-size: 1.2em
+}
+
+.horizontalLine li a:hover {
+  color: rgb(249, 208, 233);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  color: rgb(252, 42, 219);
+  text-align: center;
+  font-family: 'Cardo';
+}

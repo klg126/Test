@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(230, 247, 147);
+}
+
+h1 {
+  color: rgb(11, 7, 57);
+  text-align: center;
+  font-family: 'Archivo Black';
+}
+
+h4 {
+  color: rgb(11, 7, 57);
+  text-align: center;
+  font-family: 'Cardo';
+}
+
+h3 {
+  color: rgb(11, 7, 57);
+  text-align: center;
+  font-family: 'Cardo'
+}
+
+.home {
+  display: table;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.home {
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.home li {
+  display: block;
+  margin: 15px;
+  padding: 15px 35px 15px 35px;
+  background-color: white;
+  width: 45%;
+}
+
+.home li a {
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+  font-family: 'Archivo Black';
+  text-align: center;
+}
+
+.home li a:hover {
+  color: rgb(230, 247, 147);
+}
+
+.row {
+  display: grid;
+  font-family: 'Cardo';
+  color: black;
+  padding: 1px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row img {
+  padding: 5px;
+  width: 80%;
+  float: left;
+}
+
+.column2 {
+  outline-style: double;
+  padding: inherit;
+  text-align: center;
+}
