@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165104540-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165104540-1');
+</script>
+    <meta charset="utf-8">
+    <title>CIM 111 FINAL</title>
+    <meta name="author" content="Katelyn Gavin">
+    <meta name="description" content="MIAMI TRAVEL GUIDE">
+    <meta name="keywords" content="final project html css jquery page pilling">
+    <link rel="stylesheet" media="only screen and (min-width: 501px)" href="final.css">
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="finalmobile.css">
+    <link rel="stylesheet" href="pagepiling.css">
+    <!-- This is the CDN for jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- This is the link for Pagepilign -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+    <!-- This one is yours -->
+    <script type="text/javascript" src="final.js"></script>
+  </head>
+
+  <body>
+
+    <div id="pagepiling">
+
+      <div class="section home" data-anchor="home">
+        <div class="container">
+          <img src="img/miamiskyline.jpg" alt="Snow" style="width:100%;">
+          <div class="centered"><h1>MIAMI TRAVEL GUIDE</h1></div>
+      </div>
+        <nav class="navigation" >
+          <ul class="horizontalLine">
+            <li><a href="#hotel"> <center> HOTELS </center> </a></li>
+            <li><a href="#restaurants"> <center> RESTAURANTS </center> </a></li>
+            <li><a href="#experience"> <center> EXPERIENCE </center> </a></li>
+          </ul>
+        </nav>
+
+        <h3>Best Time to Visit</h3>
+        <p>January through April is Miami’s high season, as the regular influx of tourists prove. But budget-friendly (and crowd-wary) travelers are discovering the joys of the city’s quieter summer months, namely June through September. While it’s part of the so-called hurricane belt, making it vulnerable to inclement weather from June through November, as long as the sun is shining, Miami is open for business.</p>
+        <h3>Miami Transportation</h3>
+        <p>Miamians love their cars, and if you’re not renting a car, opt for taxi or car service. The Miami-Dade Transit system offers 800 Metrobuses that cost $2.25 per trip; the Metromover is free, electrically powered, and loops around Downtown and Brickell neighborhoods.</p>
+        <h3>Miami Weather</h3>
+        <p>July is the hottest month, with an average high of 88°F (28°C). January is the coolest month, with an average temperature of 68°F (20°C).</p>
+        <h3>Currency</h3>
+        <p>United States Dollar ($)</p>
+      </div>
+      <div class="section hotels" data-anchor="hotel">
+        <div class="container">
+          <img src="img/miamiskyline.jpg" alt="Snow" style="width:100%;">
+          <div class="centered"><h1>HOTELS</h1></div>
+      </div>
+      <nav class="navigation" >
+        <ul class="horizontalLine">
+          <li><a href="#home"> <center> HOME </center> </a></li>
+          <li><a href="#restaurants"> <center> RESTAURANTS </center> </a></li>
+          <li><a href="#experience"> <center> EXPERIENCE </center> </a></li>
+        </ul>
+      </nav>
+      <section id="hotelinfo">
+        <h3>Click on the icons for more information on the listed hotel options!</h3>
+      </section>
+
+<!-- hotel gallery -->
+      <div class="gallery">
+  <a target="_blank" href="https://www.1hotels.com/south-beach?utm_source=google-gmb&utm_medium=organic&utm_campaign=gmb">
+    <img src="img/1hotel.jpg" alt="1 Hotel" width="500" height="400">
+  </a>
+  <div class="desc"><h3>1 Hotel</h3><p>2341 Collins Ave. Miami</p></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.morganshotelgroup.com/delano/delano-south-beach">
+    <img src="img/delano.jpg" alt="The Delano South Beach" width="500" height="400">
+  </a>
+  <div class="desc"><h3>The Delano Hotel</h3><p>1685 Collins Ave. Miami</p></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.mrchotels.com/mrccoconutgrove/">
+    <img src="img/MRC.jpg" alt="Mr. C Coconut Grove" width="500" height="400">
+  </a>
+  <div class="desc"><h3>Mr. C Coconut Grove</h3><p>2988 McFarlane Road, Miami</p></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.slshotels.com/lux-brickell/">
+    <img src="img/SLS.jpg" alt="SLS LUX Brickell" width="500" height="400">
+  </a>
+  <div class="desc"><h3>The SLS LUX</h3><p>805 S Miami Ave. Miami</p></div>
+</div>
+      </div>
+      <!-- end of hotel gallery -->
+
+      <div class="section restaurants" data-anchor="restaurants">
+        <div class="container">
+          <img src="img/miamiskyline.jpg" alt="Snow" style="width:100%;">
+          <div class="centered"><h1>RESTAURANTS</h1></div>
+      </div>
+      <nav class="navigation" >
+        <ul class="horizontalLine">
+          <li><a href="#home"> <center> HOME </center> </a></li>
+          <li><a href="#hotel"> <center> HOTELS </center> </a></li>
+          <li><a href="#experience"> <center> EXPERIENCE </center> </a></li>
+        </ul>
+      </nav>
+
+      <div class="fancybox">
+        <h3>Alter Miami, Il Gabbiano, Joe's Stone Crab, Komodo, Lucali, Planta, Pubelly, Yard Bird</h3>
+        <a data-fancybox="gallery" href="img/alter1.jpg"><img src="img/alter2.jpg"></a>
+        <a data-fancybox="gallery" href="img/ilgab1.jpg"><img src="img/ilgab2.jpg"></a>
+        <a data-fancybox="gallery" href="img/joes1.jpg"><img src="img/joes2.jpg"></a>
+        <a data-fancybox="gallery" href="img/komodo1.jpg"><img src="img/komodo2.jpg"></a>
+        <a data-fancybox="gallery" href="img/lucali1.jpg"><img src="img/lucali2.jpg"></a>
+        <a data-fancybox="gallery" href="img/planta1.jpg"><img src="img/planta2.jpg"></a>
+        <a data-fancybox="gallery" href="img/pubelly1.jpg"><img src="img/pubelly2.jpg"></a>
+        <a data-fancybox="gallery" href="img/yardbird1.jpg"><img src="img/yardbird2.jpg"></a>
+      </div>
+
+      </div>
+      <div class="section experience" data-anchor="experience">
+        <div class="container">
+          <img src="img/miamiskyline.jpg" alt="Snow" style="width:100%;">
+          <div class="centered"><h1>EXPERIENCE</h1></div>
+      </div>
+      <nav class="navigation" >
+        <ul class="horizontalLine">
+          <li><a href="#home"> <center> HOME </center> </a></li>
+          <li><a href="#hotel"> <center> HOTELS </center> </a></li>
+          <li><a href="#restaurants"> <center> RESTAURANTS </center> </a></li>
+        </ul>
+      </nav>
+      <div class="row2">
+        <div class="column2">
+          <a href="https://www.artdecotours.com"><img src="img/artdeco.jpg" alt="Art Deco Walking Tour" width="300"></a>
+          <a href="https://thewynwoodwalls.com"><img src="img/walls.jpeg" alt="Wynwood Walls" width="291"></a>
+          <a href="https://www.miamidesigndistrict.net"><img src="img/design4.jpg" alt="Design District" width="335"></a>
+          <a href="https://www.monkeyjungle.com"><img src="img/monkey.jpg" alt="Monkey Jungle" width="340"></a>
+          <a href="https://speedboattours.com"><img src="img/boat.jpg" alt="Speedboat Tour" width="300"></a>
+          <a href="https://www.artechouse.com"><img src="img/arttec.jpeg" alt="Art Tec House" width="300"></a>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
